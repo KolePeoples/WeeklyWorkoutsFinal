@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/beginner"
+        android:title="Beginner"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/intermediate"
+        android:title="Intermediate"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/advanced"
+        android:title="Advanced"
+        app:showAsAction="never"/>
+
+</menu>

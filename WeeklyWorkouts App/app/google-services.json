@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "271245120763",
+    "project_id": "workout-app-41320",
+    "storage_bucket": "workout-app-41320.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271245120763:android:34bc429523df6f42314c5e",
+        "android_client_info": {
+          "package_name": "com.zybooks.weeklyworkouts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271245120763-79genl7b2ckkhb9fvab0o3d2uqq691ei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsTMjEUWARQPVgyGEhtXc4ix09klj6SYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271245120763-79genl7b2ckkhb9fvab0o3d2uqq691ei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

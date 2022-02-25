@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Weekly Workouts</string>
+    <string name="start_button">Start!</string>
+
+    <string name="details">Details</string>
+
+    <string-array name="bands">
+        <item>Yoga</item>
+        <item>Meditation</item>
+        <item>Read a Book</item>
+        <item>Swimming</item>
+        <item>Go For a Walk</item>
+        <item>Meal Prep</item>
+        <item>Play Basketball</item>
+        <item>Active Recovery Stretches</item>
+        <item>Take a Nap</item>
+        <item>Get a Massage</item>
+        <item>Visit a Sauna</item>
+        <item>Ice Bath</item>
+        <item>Epsom Salt Bath</item>
+        <item>Roll Your Muscles Out</item>
+        <item>Have a Cheat Meal</item>
+
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>Stretch and relax!</item>
+        <item>Follow this link to a meditation page</item>
+        <item>We recommend Percy Jackson and the Olympians</item>
+        <item>Swimming is a great opportunity to have fun and exercise</item>
+        <item>Go for a walk with a friend or pet</item>
+        <item>Protein is great for building muscle</item>
+        <item>Basketball is a great way to have fun and get cardio in</item>
+        <item>These stretches will help with soreness and recovery</item>
+        <item>Seriously! Adequate rest is very important</item>
+        <item>Follow this link to the nearest Massage Envy</item>
+        <item>These local gyms all have a sauna you can use</item>
+        <item>The ice bath can help loosen muscles</item>
+        <item>Epsom Salt can also help you loosen your muscles</item>
+        <item>Use a baseball, tennis ball or follow this link to purchase your own roller</item>
+        <item>Dieting is important, but that does not mean you can not have pizza</item>
+    </string-array>
+    <string name="workout_placeholder">Fetching workout…</string>
+</resources>
