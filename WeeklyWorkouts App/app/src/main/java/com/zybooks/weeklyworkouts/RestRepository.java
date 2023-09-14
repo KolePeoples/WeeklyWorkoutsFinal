@@ -21,10 +21,10 @@ public class RestRepository {
         private RestRepository(Context context) {
             kRestAlts = new ArrayList<>();
             Resources res = context.getResources();
-            String[] bands = res.getStringArray(R.array.bands);
+            String[] alts = res.getStringArray(R.array.alts);
             String[] descriptions = res.getStringArray(R.array.descriptions);
-            for (int i = 0; i < bands.length; i++) {
-                kRestAlts.add(new Rest(i + 1, bands[i], descriptions[i]));
+            for (int i = 0; i < alts.length; i++) {
+                kRestAlts.add(new Rest(i + 1, alts[i], descriptions[i]));
             }
         }
 

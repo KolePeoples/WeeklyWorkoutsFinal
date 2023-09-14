@@ -27,10 +27,11 @@ public class ListFragment extends Fragment {
         View.OnClickListener onClickListener = itemView -> {
 
             // Create fragment arguments containing the selected rest ID
-            int selectedBandId = (int) itemView.getTag();
+            int selectedRestId = (int) itemView.getTag();
             Bundle args = new Bundle();
-            args.putInt(DetailFragment.ARG_REST_ID, selectedBandId);
-
+            args.putInt(DetailFragment.ARG_REST_ID, selectedRestId);
+            //itemView.setTag(selectedRestId);
+            //itemView.getTag(selectedRestId);
             // Replace list with details
             Navigation.findNavController(itemView).navigate(R.id.show_item_detail, args);
         };
@@ -39,6 +40,7 @@ public class ListFragment extends Fragment {
         RecyclerView recyclerView = rootView.findViewById(R.id.rest_list);
         List<Rest> rests = RestRepository.getInstance(requireContext()).getRests();
         recyclerView.setAdapter(new RestAdapter(rests, onClickListener));
+
 
         DividerItemDecoration divider = new DividerItemDecoration(recyclerView.getContext(),
                 DividerItemDecoration.VERTICAL);

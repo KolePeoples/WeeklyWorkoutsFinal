@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/item_list_container"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/background_purple">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rest_list"
@@ -14,6 +15,7 @@
         android:layout_height="match_parent"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
+        android:textColor="@color/white"
         app:layoutManager="LinearLayoutManager"
         tools:context="com.zybooks.weeklyworkouts.SundayWorkout"
         tools:listitem="@layout/list_item_rest" />

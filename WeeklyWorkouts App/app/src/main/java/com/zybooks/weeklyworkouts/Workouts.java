@@ -11,6 +11,7 @@ import android.widget.ImageView;
 public class Workouts extends AppCompatActivity {
 
     //Initializing image views
+    public String dow;
     private ImageButton mondayButton;
     private ImageButton tuesdayButton;
     private ImageButton wednesdayButton;
@@ -34,6 +35,8 @@ public class Workouts extends AppCompatActivity {
         fridayButton = findViewById(R.id.fridayButton);
         saturdayButton = findViewById(R.id.saturdayButton);
         sundayButton = findViewById(R.id.sundayButton);
+
+        //Setting onClick listeners for all buttons
 
         mondayButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -85,38 +88,55 @@ public class Workouts extends AppCompatActivity {
         });
     }
 
+    //Functions for each button click
+    //putExtra being used/tested for a reduction in total activities
+
     public void mondayWorkout(View view) {
+        dow = "M";
         Intent intent = new Intent(this, MondayWorkout.class);
+        intent.putExtra("day_of_week", dow);
         startActivity(intent);
     }
 
     public void tuesdayWorkout(View view) {
+        dow = "T";
         Intent intent = new Intent(this, TuesdayWorkout.class);
+        intent.putExtra("day_of_week", dow);
         startActivity(intent);
     }
 
     public void wednesdayWorkout(View view) {
+        dow = "W";
         Intent intent = new Intent(this, WednesdayWorkout.class);
+        intent.putExtra("day_of_week", dow);
         startActivity(intent);
     }
 
     public void thursdayWorkout(View view) {
+        dow = "R";
         Intent intent = new Intent(this, ThursdayWorkout.class);
+        intent.putExtra("day_of_week", dow);
         startActivity(intent);
     }
 
     public void fridayWorkout(View view) {
+        dow = "F";
         Intent intent = new Intent(this, FridayWorkout.class);
+        intent.putExtra("day_of_week", dow);
         startActivity(intent);
     }
 
     public void saturdayWorkout(View view) {
+        dow = "S";
         Intent intent = new Intent(this, SaturdayWorkout.class);
+        intent.putExtra("day_of_week", dow);
         startActivity(intent);
     }
 
     public void sundayWorkout(View view) {
+        dow = "U";
         Intent intent = new Intent(this, SundayWorkout.class);
+        intent.putExtra("day_of_week", dow);
         startActivity(intent);
     }
 

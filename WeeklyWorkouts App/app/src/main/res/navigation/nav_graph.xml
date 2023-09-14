@@ -19,7 +19,7 @@
         android:label="@string/details"
         tools:layout="@layout/fragment_detail">
         <argument
-            android:name="band_id"
+            android:name="rest_id"
             android:defaultValue="1"
             app:argType="integer" />
     </fragment>

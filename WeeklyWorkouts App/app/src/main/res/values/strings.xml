@@ -4,7 +4,7 @@
 
     <string name="details">Details</string>
 
-    <string-array name="bands">
+    <string-array name="alts">
         <item>Yoga</item>
         <item>Meditation</item>
         <item>Read a Book</item>
