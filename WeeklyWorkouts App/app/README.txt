@@ -1,0 +1,7 @@
+Weekly Workout App Pitch
+
+A) This is a weekly workout app. It allows users to select a day of the week and is given a corresponding workout. Each day is tailored to a specific muscle group. All a user has to do is select the current day of the week and they will be given a workout. On Sunday, rest day, the app will provide a list of alternatives to working out. These can range from dynamic activities like swimming to more static activities like ice baths. Upon selecting any of the rest activities the user will be directed to a link to a location or website providing more information on the activity.
+B) The app is made for people who go or want to start going to the gym. Specifically for people who are new to working out or are still beginners. Some people don’t know what exercises to do or that it is ideal to focus on training one muscle group a day.
+C) My app is able to target all levels of fitness training. It pulls from a list of exercises and can be modified to get new workouts every week, providing variety that will help to continuously shock the muscles. It provides easy access to over thirty exercises in an attempt to eliminate the issue some gym goers face when it comes to a lack of knowledge.
+D) My app is simple, accessible, and flexible. Workouts are stored in a Realtime database that can update workouts even while the app is offline.
+E) Multiple Screens, Fragments, Recycler View, Firebase Data storage, and App Bar menu
