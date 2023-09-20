@@ -21,7 +21,7 @@ public class DetailFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        int restId = 1;
+        int restId = 3; //Issue is here
 
         // Get the selected rest activity
         mRest = RestRepository.getInstance(requireContext()).getRest(restId);
