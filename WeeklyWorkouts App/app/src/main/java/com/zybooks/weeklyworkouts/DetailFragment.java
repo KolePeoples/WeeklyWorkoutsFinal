@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+//import java.io.Console;
+
 public class DetailFragment extends Fragment {
 
     public static final String ARG_REST_ID = "rest_id";
@@ -21,6 +23,7 @@ public class DetailFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        System.out.println(mRest);
         int restId = 1; //Issue is here. Need to fix
 
         // Get the selected rest activity
