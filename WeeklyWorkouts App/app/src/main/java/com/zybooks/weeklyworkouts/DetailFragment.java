@@ -23,11 +23,13 @@ public class DetailFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        System.out.println(mRest);
         int restId = 1; //Issue is here. Need to fix
 
+        //System.out.println(mRest.getId());
+
         // Get the selected rest activity
-        mRest = RestRepository.getInstance(requireContext()).getRest(restId);
+        mRest = RestRepository.getInstance(requireContext()).getRest(getId());
+
 
     }
 
